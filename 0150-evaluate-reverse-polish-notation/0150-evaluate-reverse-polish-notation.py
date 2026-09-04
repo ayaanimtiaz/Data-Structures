@@ -1,32 +1,21 @@
 from collections import deque
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
-        
-        # stack: 4, 13, 5
-        # create total var
-        # if current element is an operator
-        # pop last two in stack, use operator
-        # account for edge cases
-        # add each operation to the total variable
-
-        stack_var = deque()
-        operators = {"+", "-", "*", "/"}
-
-
+        # each operation in the stack builds on top of itself
+        stack = deque()
+        operations = {"+", "-", "/", "*"}
         for i in range(len(tokens)):
-            if tokens[i] in operators:
-                new_element = stack_var.pop()
-                previous_element = stack_var.pop()
-                #substitute
+            if tokens[i] in operations:
+                first_element = int(stack.pop())
+                second_element = int(stack.pop())
                 if tokens[i] == '+':
-                    stack_var.append(previous_element + new_element)
-                elif tokens[i] == '*':
-                    stack_var.append(previous_element * new_element)
-                elif tokens[i] == '/':
-                    stack_var.append(int(previous_element / new_element))
-                elif tokens[i] == '-':
-                    stack_var.append(previous_element - new_element)
-
+                    stack.append(second_element + first_element)
+                if tokens[i] == '-':
+                    stack.append(second_element - first_element)
+                if tokens[i] == '/':
+                    stack.append(int(second_element / first_element))
+                if tokens[i] == '*':
+                    stack.append(second_element * first_element)
             else:
-                stack_var.append(int(tokens[i]))
-        return stack_var[-1]
+                stack.append(int(tokens[i]))
+        return stack[-1]
