@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
 ## Design
 |  |
 | ------- |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0739-daily-temperatures](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
 ## Math
 |  |
 | ------- |
@@ -24,4 +26,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
+## Sorting
+|  |
+| ------- |
+| [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
 <!---LeetCode Topics End-->
