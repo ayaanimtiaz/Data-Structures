@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0704-binary-search](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
 ## Math
@@ -38,4 +39,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0084-largest-rectangle-in-histogram) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
