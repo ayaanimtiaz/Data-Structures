@@ -49,4 +49,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0074-search-a-2d-matrix) |
+## Hash Table
+|  |
+| ------- |
+| [0076-minimum-window-substring](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0076-minimum-window-substring) |
+## String
+|  |
+| ------- |
+| [0076-minimum-window-substring](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0076-minimum-window-substring) |
+## Sliding Window
+|  |
+| ------- |
+| [0076-minimum-window-substring](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0076-minimum-window-substring) |
 <!---LeetCode Topics End-->
