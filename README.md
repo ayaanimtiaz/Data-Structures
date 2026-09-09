@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0739-daily-temperatures) |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0739-daily-temperatures](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
@@ -25,10 +27,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
 ## Sorting
 |  |
 | ------- |
 | [0853-car-fleet](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0853-car-fleet) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/ayaanimtiaz/Data-Structures/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
