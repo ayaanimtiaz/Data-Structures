@@ -26,16 +26,11 @@ class Solution:
                 merged_pointer = merged_pointer.next
                 curr_one = curr_one.next
         
-        while curr_one:
-                merged_pointer.next = ListNode(curr_one.val)
-                merged_pointer = merged_pointer.next
-                curr_one = curr_one.next
-
-        while curr_two:
-                merged_pointer.next = ListNode(curr_two.val)
-                merged_pointer = merged_pointer.next
-                curr_two = curr_two.next
-            
+        if curr_one:
+            merged_pointer.next = curr_one
+        if curr_two:
+            merged_pointer.next = curr_two
+                
         merged = merged.next
         return merged
 
