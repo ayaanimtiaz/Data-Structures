@@ -5,38 +5,38 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: ListNode | None, list2: ListNode | None) -> ListNode | None:
+        # TDL
+        # create a new linkedlist 
+        # travel through each list and at each iteration compare the nodes
+        # if a node is bigger than the other, create that node and iterate the smaller node forward and keep bigger one forward
+        # if one node empties, iterate through the non-none one
 
-        merged =  ListNode()
-        dummy = merged
-        cap_one = list1
-        cap_two = list2
+        curr_one = list1
+        curr_two = list2
+        merged = ListNode()
+        merged_pointer = merged
 
-
-        while cap_one and cap_two:
-            if cap_one.val >= cap_two.val:
-                dummy.next = ListNode(cap_two.val)
-                cap_two = cap_two.next
+        while curr_one and curr_two:
+            if curr_one.val > curr_two.val:
+                merged_pointer.next = ListNode(curr_two.val)
+                merged_pointer = merged_pointer.next
+                curr_two = curr_two.next
             else:
-                dummy.next = ListNode(cap_one.val)
-                cap_one = cap_one.next
-            dummy = dummy.next
+                merged_pointer.next = ListNode(curr_one.val)
+                merged_pointer = merged_pointer.next
+                curr_one = curr_one.next
+        
+        while curr_one:
+                merged_pointer.next = ListNode(curr_one.val)
+                merged_pointer = merged_pointer.next
+                curr_one = curr_one.next
 
-        while cap_two:
-            dummy.next = ListNode(cap_two.val)
-            cap_two = cap_two.next
-            dummy = dummy.next
-
-        while cap_one:
-            dummy.next = ListNode(cap_one.val)
-            cap_one = cap_one.next
-            dummy = dummy.next
-
+        while curr_two:
+                merged_pointer.next = ListNode(curr_two.val)
+                merged_pointer = merged_pointer.next
+                curr_two = curr_two.next
+            
         merged = merged.next
-
-        
         return merged
-        
-
-
 
 
